@@ -30,7 +30,7 @@ class Vector2d:
         Overloads the * operator when the scalar is on the left-hand side.
         Returns a new Vector2d object with coordinates multiplied by the scalar.
         """
-        return self.__mul__(scalar)
+        return self * scalar
 
     def __str__(self):
         """
